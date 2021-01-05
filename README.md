@@ -25,13 +25,8 @@ Important things to note are:
 - Heating device (heat gun, hair dryer, blow torch)
 ### Pseudo Code
 // initialize Accelerometer
-
 // initialize Altimeter
-
 // start recording
-
 // loop for a minute
-
 // write to .txt file
-
 // relay after two minutes
