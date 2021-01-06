@@ -56,9 +56,9 @@ A potato cannon is the most basic form of combustion cannon. Easy and cheap, it 
 ## Plan Drawing
 [Plan Drawing](media/PotatoDC.png)
 ## Photos of Finished Product
-[Pi-Sensor Circuit](media/CDFritz.png)
-[Potato Canon Final Build](media/Dani_Cannon.jpg)
-[Pi Capsule Final Build](media/Capsule_CD.jpg)
+- [Pi-Sensor Circuit](media/CDFritz.png)
+- [Potato Canon Final Build](media/Dani_Cannon.jpg)
+- [Pi Capsule Final Build](media/Capsule_CD.jpg)
 ## Code
 Our code came from the simpletest.py file inside a Github repository for the LSM303 sensor:
 https://github.com/adafruit/Adafruit_Python_LSM303
@@ -66,8 +66,8 @@ This code to read the sensor is coupled with two lines of code that output the s
 [Code](code/code.py)
 ## Solidworks and Project Design
 The most challenging part of the project was figuring out how to enclose the sensors and Pi in order to record data. The pictures below show our final design, which was a cylindrical capsule outfitted to the exact radius of the barrel of the cannon. The best way to enclose everything compactly and securely is with a screw thread, which was perfect as we could make use of the Solidworks Thread tool. The first test thread we printed was very fine and always got stuck when screwed in. In the second iteration, we printed slightly larger threads (still over 5 per inch) and encountered the same problem. Our final iteration we decided to make the largest threads possible and settled on "1.500-6" size. This worked out perfectly and the thread fit tightly and screwed in without inhibition. See the design below.
-[Final Thread](media/Thread1.png)
-[Base Design](media/Basecd.png)
+- [Final Thread](media/Thread1.png)
+- [Base Design](media/Basecd.png)
 ## Data Analysis
 Our code outputted 2 mins, or 250 lines, worth of data. Because of the lack of rifling in the barrel or the capsule, the projectile did not fly straight and oscillated and turned violently. This motion caused the acceleration data in the X, Y, and Z directions to be all over the place. The X data ranged between -7m/s/s to 6m/s/s; Y between -3 and 4m/s/s; Z between -16 and 8 m/s/s. We fulfilled the project by putting a Pi in the Sky and determining accel data. The execution and range of motion allowed a sub-optimal analysis of actual acceleration.
 In addition to printing the raw data, you can see in our lines of code that we added a line to analyze the X, Y, and Z accelerations to come up with a total acceleration. As expected, the half second delay missed the actual launch, so the mid-air acceleration should have been relatively constant even while spinning and messing up the data, with adjustments for drag and such of course. Here is a sample of our .txt output for the data while being shot. note the jump from a constant mid-air, to low accel at impact:
