@@ -37,4 +37,4 @@ Important things to note are:
 // write to .txt file
 
 // relay after two minutes
-## [Plan Picture](~/dszabo236/Pi-in-the-Sky/media/CDplan.PNG)
+### [Plan Picture](CDplan.PNG)
