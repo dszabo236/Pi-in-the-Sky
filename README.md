@@ -1,6 +1,6 @@
 Project Completed on June 6th, 2018. Original [wiki webpage](http://wiki.chssigma.com/index.php?title=Dani_and_Cole%27s_Pi_in_the_Sky).  
 * [Table of Contents](#table-of-contents)
-* [Plan #1 - Hot Air Balloon](#Plan #1 - Hot Air Balloon)
+* [Plan #1 - Hot Air Balloon](#Plan-#1---Hot-Air-Balloon)
 
 ## Initial Ideas
 - Hot Air Balloon
