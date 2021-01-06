@@ -60,9 +60,7 @@ A potato cannon is the most basic form of combustion cannon. Easy and cheap, it 
 - [Potato Canon Final Build](media/Dani_Cannon.jpg)
 - [Pi Capsule Final Build](media/Capsule_CD.jpg)
 ## Code
-Our code came from the simpletest.py file inside a Github repository for the LSM303 sensor:
-- https://github.com/adafruit/Adafruit_Python_LSM303
-This code to read the sensor is coupled with two lines of code that output the sensor data to a .txt file. The program runs on startup, so when connected to a battery, it will output two minutes worth of data.
+Our code came from the simpletest.py file inside a Github repository for the LSM303 sensor:https://github.com/adafruit/Adafruit_Python_LSM303. This code to read the sensor is coupled with two lines of code that output the sensor data to a .txt file. The program runs on startup, so when connected to a battery, it will output two minutes worth of data.
 - [Code](code/code.py)
 ## Solidworks and Project Design
 The most challenging part of the project was figuring out how to enclose the sensors and Pi in order to record data. The pictures below show our final design, which was a cylindrical capsule outfitted to the exact radius of the barrel of the cannon. The best way to enclose everything compactly and securely is with a screw thread, which was perfect as we could make use of the Solidworks Thread tool. The first test thread we printed was very fine and always got stuck when screwed in. In the second iteration, we printed slightly larger threads (still over 5 per inch) and encountered the same problem. Our final iteration we decided to make the largest threads possible and settled on "1.500-6" size. This worked out perfectly and the thread fit tightly and screwed in without inhibition. See the design below.
