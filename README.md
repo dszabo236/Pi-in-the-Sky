@@ -37,4 +37,4 @@ Important things to note are:
 // write to .txt file
 
 // relay after two minutes
-### [Plan Picture](CDplan.PNG)
+### [Plan Picture](/media/CDplan.PNG)
