@@ -69,7 +69,7 @@ The most challenging part of the project was figuring out how to enclose the sen
 ## Data Analysis
 Our code outputted 2 mins, or 250 lines, worth of data. Because of the lack of rifling in the barrel or the capsule, the projectile did not fly straight and oscillated and turned violently. This motion caused the acceleration data in the X, Y, and Z directions to be all over the place. The X data ranged between -7m/s/s to 6m/s/s; Y between -3 and 4m/s/s; Z between -16 and 8 m/s/s. We fulfilled the project by putting a Pi in the Sky and determining accel data. The execution and range of motion allowed a sub-optimal analysis of actual acceleration.
 In addition to printing the raw data, you can see in our lines of code that we added a line to analyze the X, Y, and Z accelerations to come up with a total acceleration. As expected, the half second delay missed the actual launch, so the mid-air acceleration should have been relatively constant even while spinning and messing up the data, with adjustments for drag and such of course. Here is a sample of our .txt output for the data while being shot. note the jump from a constant mid-air, to low accel at impact:
-'''python
+```python
 Accel X=8.09, Accel Y=3.49, Accel Z=2.44  Total Accel= 9.14
 Accel X=5.84, Accel Y=4.02, Accel Z=3.03  Total Accel=7.71
 Accel X=1.89, Accel Y=6.74, Accel Z=5.80  Total Accel=9.11
@@ -79,7 +79,7 @@ Accel X=3.91, Accel Y=0.13, Accel Z=9.44  Total Accel=10.22
 Accel X=1.55, Accel Y=2.63, Accel Z=9.60  Total Accel=10.13
 Accel X=-1.84, Accel Y=2.90, Accel Z=8.98  Total Accel=9.61
 Accel X=-1.19, Accel Y=2.32, Accel Z=3.24  Total Accel=4.16
-'''
+```
 ## Challenges
 - Figuring out an original project that would fit the task; 
   - **Solution: tried hot air and then went big with guaranteed flight.**
