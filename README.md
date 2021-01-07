@@ -1,7 +1,19 @@
 Project Completed on June 6th, 2018. Original [wiki webpage](http://wiki.chssigma.com/index.php?title=Dani_and_Cole%27s_Pi_in_the_Sky).  
 # Table of Contents
-* [Plan #1 - Hot Air Balloon](#Plan-#1---Hot-Air-Balloon)
-* [Final Plan - Potato Canon](#Final-Plan---Potato-Canon)
+- [Initial Ideas](#initial-ideas)
+- [Plan #1 - Hot Air Balloon](#plan-1---hot-air-balloon)
+   - [Materials](#materials)
+   - [Pseudo Code](#pseudo-code)
+ - [Final Plan - Potato Canon](#final-plan---potato-canon)
+   - [Materials](#materials-1)
+   - [Description](#description)
+   - [Plan Drawing](#plan-drawing)
+   - [Photos of Finished Product](#photos-of-finished-product)
+   - [Code](#code)
+   - [Solidworks and Project Design](#solidworks-and-project-design)
+   - [Data Analysis](#data-analysis)
+   - [Challenges](#challenges)
+   - [Conclusion](#conclusion)
 
 ## Initial Ideas
 - Hot Air Balloon
