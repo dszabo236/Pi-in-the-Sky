@@ -1,6 +1,7 @@
 Project Completed on June 6th, 2018. Original [wiki webpage](http://wiki.chssigma.com/index.php?title=Dani_and_Cole%27s_Pi_in_the_Sky).  
 * [Table of Contents](#table-of-contents)
 * [Plan #1 - Hot Air Balloon](#Plan-#1---Hot-Air-Balloon)
+* [Final Plan - Potato Canon](#Final-Plan---Potato-Canon)
 
 ## Initial Ideas
 - Hot Air Balloon
@@ -38,7 +39,7 @@ Important things to note are:
 
 // relay after two minutes
 ### [Plan Picture](media/CDplan.png)
-# Final Plan
+# Final Plan - Potato Canon
 ## Materials
 - PVC pipe
 - Spark plug
