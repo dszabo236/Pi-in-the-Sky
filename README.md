@@ -68,15 +68,15 @@ Important things to note are:
 A potato cannon is the most basic form of combustion cannon. Easy and cheap, it has been adapted by DIY'ers many times. In its most fundamental design, a potato is shoved down a pipe that is connected to a compartment where a flammable gas is sprayed and then ignited. The combustion reaction pushes the potato out of the pipe at a high velocity. There is obviously some worry about the force of the projectile damaging the Pi, but part of the project will be figuring out how to effectively protect it. The Cannon itself will be made of PVC pipe.
 ## Plan Drawing
 <p align="left">
-  <img src="media/PotatoDC.png" width="250" title="hover text">
+  <img src="media/PotatoDC.png" width="250" height="250" title="hover text">
 </p>
 
 [Plan Drawing](media/PotatoDC.png)
 ## Photos of Finished Product
 <p align="center">
-  <img src="media/CDFritz.png" width="250" title="hover text">
-  <img src="media/Dani_Cannon.jpg" width="250" title="hover text">
-  <img src="media/Capsule_CD.jpg" width="250" title="hover text">
+  <img src="media/CDFritz.png" width="250" height="250" title="hover text">
+  <img src="media/Dani_Cannon.jpg" width="250" height="250" title="hover text">
+  <img src="media/Capsule_CD.jpg" width="250" height="250" title="hover text">
 </p>
 
 - [Pi-Sensor Circuit](media/CDFritz.png)
@@ -87,9 +87,9 @@ Our code came from the simpletest.py file inside a Github repository for the LSM
 - [Code](code/code.py)
 ## Solidworks and Project Design
 The most challenging part of the project was figuring out how to enclose the sensors and Pi in order to record data. The pictures below show our final design, which was a cylindrical capsule outfitted to the exact radius of the barrel of the cannon. The best way to enclose everything compactly and securely is with a screw thread, which was perfect as we could make use of the Solidworks Thread tool. The first test thread we printed was very fine and always got stuck when screwed in. In the second iteration, we printed slightly larger threads (still over 5 per inch) and encountered the same problem. Our final iteration we decided to make the largest threads possible and settled on "1.500-6" size. This worked out perfectly and the thread fit tightly and screwed in without inhibition. See the design below.
-<p align="center">
-  <img src="media/Thread1.png" width="250" title="hover text">
-  <img src="media/Basecd.png" width="250" title="hover text">
+<p align="left">
+  <img src="media/Thread1.png" width="250" height="250" title="hover text">
+  <img src="media/Basecd.png" width="250" height="250" title="hover text">
 </p>
 
 - [Final Thread](media/Thread1.png)
